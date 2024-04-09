@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/4bd38d7b8a.js" crossorigin="anonymous"></script>
+    <title>Biodata</title>
+    <style>
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            padding: 10px 15px;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            width: 97%;
+            z-index: 999;
+        }
+
+        .topnav a {
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        .topnav-right {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .topnav-right a {
+            margin-right: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s; /* Add a transition effect for smoother hover */
+        }
+
+        .topnav-right a.active {
+            
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .topnav-right a.active:hover{
+            color:black;
+        }
+
+        .topnav-right a:hover {
+            background-color: #92d9ff;
+            color: black;
+
+        }
+
+        .center-text {
+            width: 200px; /* Add a fixed width */
+            text-align: center;
+            margin: 0 auto; /* Center the div horizontally */
+            padding-left: 150px;
+        }
+
+        .bottomnav{
+            background-color: black;
+            overflow: hidden;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        body{
+            background-color: #ffeaee;
+        }
+
+        .content{
+            background-color:white;
+            margin: 120px 150px 40px 150px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            display: grid;
+            font-size:20px;
+        }
+
+        .content table{
+            margin: 10px;
+        }
+
+        .content_left{
+            padding: 10px;
+        }
+
+        .interest{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding: 15px 100px 40px 100px;
+            background-color: white;
+            text-align: center;
+            font-size:20px;
+        }
+
+        .interest-div{
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            width: auto;
+            height: auto;
+            display: flex;
+        }
+        
+        .interest-div div{
+            padding-top: 20px;
+            padding-bottom:20px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 260px;
+        }
+
+        .interest-div div b{
+            font-size: 22px;
+        }
+
+        .plan{
+            background-color:white;
+            display: grid;
+            font-size:20px;
+            padding: 0px 40px 40px 40px;
+        }
+
+        .plan table{
+            align-items: left;
+            line-height: 1.6;
+        }
+
+        .plan table b{
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="biodata.html">
+            <img src="Images/logo.png" width="25px" height="25px" style="padding-top:5px;">
+        </a>
+        <div class="center-text">
+            <a href="biodata.html">HQ Site</a>
+        </div>
+        <div class="topnav-right">
+            <a class="active" href="biodata.html">Biodata</a>
+            <a href="place1.html">Place 1</a>
+            <a href="place2.html">Place 2</a>
+        </div>
+    </div>
+    <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <div class="content_left">
+                            <h1>Hi there 👋</h1>
+                            <h2>Welcome to my personal blog ~</h2>
+                            <p>Name: XXXX XXXX XXXX</p>
+                            <p>Matric Number: XXXXXXXX</p>
+                            <p>Email: XXXXXXXX@gmail.com</p>
+                            <p>Faculty: Faculty of Computer Science and Information Technology</p>
+                            <p>Programme: Bachelor Of Computer Science (Web Technology) With Honours</p>
+                            <p>Year of Study: 3</p>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="Images/mypic.jpg" style="width:350px; height:500px;">
+                    </td>
+                </tr>
+            </table>     
+    </div>
+    <div class="interest">
+        <h1 style="text-align:center;">Personal Interest</h1>
+        <div class="interest-div">
+            <div style="background-color:#eaeeff";>
+                <b>Sport</b>
+                <p>Play Badminton</p>
+                <i class="fa-solid fa-heart-pulse fa-beat-fade fa-7x" style="color: #bcc8ff;"></i>
+            </div>
+            <div style="background-color:#fbeaff";>
+                <b>Creative Pursuits</b>
+                <p>Drawing & Painting</p>
+                <i class="fa-solid fa-palette fa-beat-fade fa-7x" style="color: #f6d2ff;"></i>
+            </div>
+            <div style="background-color:#fffbea";>
+                <b>Entertainment</b>
+                <p>Watching Films</p>
+                <i class="fa-solid fa-film fa-beat-fade fa-7x" style="color: #fef1b7;"></i>
+            </div>
+            <div style="background-color:#eeffea";>
+                <b>Intellectual & Academic</b>
+                <p>Read Novels</p>
+                <i class="fa-solid fa-book fa-beat-fade fa-7x" style="color: #c6ffba;"></i>
+            </div>
+            <div style="background-color:#eafffb";>
+                <b>Exploration</b>
+                <p>Photography</p>
+                <i class="fa-solid fa-camera-retro fa-beat-fade fa-7x" style="color: #bffbef;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="plan">
+        <h1 style="text-align:center;">Plan In Year 2023</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="Images/planner.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);">
+                </td>
+                <td>
+                    <ol>
+                        <li><b>Living a healthy lifestyle</b></li>
+                            <ul>
+                                <li>Do exercise regularly</li>
+                                <li>Eat a balanced diet</li>
+                            </ul>
+                        <br>
+                        <li><b>Get rid of procrastination</b></li>
+                            <ul>
+                                <li>Create a study schedule</li>
+                                <li>Focus on completing assignments and studying for exams well in advance</li>
+                            </ul>
+                        <br>
+                        <li><b>Enhance coding skills and knowledge</b></li>
+                            <ul>
+                                <li>Enroll in additional courses</li>
+                                <li>Self-learning through online resources</li>
+                            </ul>
+                    </ol>
+                </td>
+            
+
+            </tr>
+        </table>
+    </div>
+    
+    <div class="bottomnav">
+        BIC21203 2023/2024
+    </div>
+</body>
+</html>
+
